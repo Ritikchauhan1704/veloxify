@@ -1,0 +1,21 @@
+{
+  "name": "hono-app",
+  "version": "1.0.0",
+  "description": "Hono TypeScript application",
+  "main": "dist/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node dist/index.js",
+    "dev": "ts-node src/index.ts",
+    "build": "tsc"
+  },
+  "dependencies": {
+    "hono": "^3.0.0",
+    "hono/node-server": "^3.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "@types/node": "^20.0.0",
+    "ts-node": "^10.9.0"
+  }
+}
